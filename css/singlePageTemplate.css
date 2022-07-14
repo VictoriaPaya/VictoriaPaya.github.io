@@ -136,7 +136,7 @@ center{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 100px;
-	color: #000001fb;
+	color: #111111;
 	background-color: #C6C6C6;
 	border-radius: 50px;
 	box-shadow: 5px 5px 1px 1px;
@@ -150,6 +150,7 @@ center{
 	margin-top: 0px;
 	height: auto;
 	padding: 20px;
+	color: #111111;
 	background-color: #C6C6C6;
 	border-radius: 50px;
 	box-shadow: 5px 5px 1px 1px;
@@ -265,7 +266,7 @@ center {
 .blog{
 	width: 100%;
 	text-align: center;
-	color: #000001fb;
+	color: #111111;
 
 }	
 .home_header {
@@ -291,15 +292,15 @@ right{
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 100px;
-	color: #000001fb;
+	color: #111111;
 }
 
 }
 @media (prefers-color-scheme: dark) {
 	.text_column {
-		color: #000001fb;
+		color: #111111;
 	}
 	.blog{
-		color: #000001fb;
+		color: #111111;
 	}
 }
