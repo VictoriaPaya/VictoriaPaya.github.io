@@ -294,3 +294,8 @@ right{
 }
 
 }
+@media (prefers-color-scheme: dark) {
+	.text_column {
+		color: #000000;
+	}
+}
