@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* Body */
-
+:root {
+	color-scheme: light only;
+}
 
 body {
 	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
