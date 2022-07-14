@@ -19,7 +19,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
-	color: rgba(0,0,0,0.00);
 	z-index: 10;
 }
 
@@ -55,7 +54,6 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-	color: #FFFFFF;
 	font: "Avenir Light";
 	font-size: 14px;
 	text-align: left;
@@ -64,7 +62,6 @@ nav ul li {
 	transition: all 0.3s linear;
 }
 ul li a {
-	color: #FFFFFF;
 	text-decoration: none;
 }
 ul li:hover a {
@@ -78,7 +75,7 @@ ul li:hover a {
 	margin-top: -85px;
 }
 .title_text {
-	color: #FFFFFF;
+	color: #fff;
 	text-align: center;
 	letter-spacing: 4px;
 	font-size: 100px;
@@ -92,12 +89,14 @@ ul li:hover a {
 
 /* Container */
 .container {
+	overflow: auto;
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
 	height: auto;
+	padding-bottom: 50px;
 }
 left{
 	width: 50%;
@@ -114,19 +113,13 @@ center{
 	padding: 50px;
 }
 .home_header {
-	color: #FFFFFF;
+	color: #fff;
 	text-align: center;
 	letter-spacing: 4px;
 	font-size: 100px;
 	margin-top: 0px;
 }
-.home {
-	background-color: #FFFFFF;
-	padding-top: 0px;
-	padding-bottom: 800px;
-	border-radius: 10%;
-	background-color: rgba(0,0,0,0.00);
-}
+
 .portrait{
 	border-radius: 50px;
 	float: right;
