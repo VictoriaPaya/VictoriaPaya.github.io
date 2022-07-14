@@ -136,7 +136,7 @@ center{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 100px;
-	color: #000000;
+	color: #000001fb;
 	background-color: #C6C6C6;
 	border-radius: 50px;
 	box-shadow: 5px 5px 1px 1px;
@@ -265,6 +265,7 @@ center {
 .blog{
 	width: 100%;
 	text-align: center;
+	color: #000001fb;
 
 }	
 .home_header {
@@ -290,12 +291,15 @@ right{
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 100px;
-	color: #000000;
+	color: #000001fb;
 }
 
 }
 @media (prefers-color-scheme: dark) {
 	.text_column {
-		color: #000000;
+		color: #000001fb;
+	}
+	.blog{
+		color: #000001fb;
 	}
 }
