@@ -1,7 +1,11 @@
 @charset "UTF-8";
 /* Body */
-
-
+:root {
+	color-scheme: light only;
+}
+html {
+	scroll-behavior: smooth;
+  }
 body {
 	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	margin-top: 0px;
@@ -19,7 +23,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
-	color: rgba(0,0,0,0.00);
 	z-index: 10;
 }
 
@@ -55,7 +58,6 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-	color: #FFFFFF;
 	font: "Avenir Light";
 	font-size: 14px;
 	text-align: left;
@@ -64,7 +66,6 @@ nav ul li {
 	transition: all 0.3s linear;
 }
 ul li a {
-	color: #FFFFFF;
 	text-decoration: none;
 }
 ul li:hover a {
@@ -78,7 +79,7 @@ ul li:hover a {
 	margin-top: -85px;
 }
 .title_text {
-	color: #FFFFFF;
+	color: #fff;
 	text-align: center;
 	letter-spacing: 4px;
 	font-size: 100px;
@@ -92,12 +93,14 @@ ul li:hover a {
 
 /* Container */
 .container {
+	overflow: auto;
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
 	height: auto;
+	padding-bottom: 50px;
 }
 left{
 	width: 50%;
@@ -114,19 +117,13 @@ center{
 	padding: 50px;
 }
 .home_header {
-	color: #FFFFFF;
+	color: #fff;
 	text-align: center;
 	letter-spacing: 4px;
 	font-size: 100px;
 	margin-top: 0px;
 }
-.home {
-	background-color: #FFFFFF;
-	padding-top: 0px;
-	padding-bottom: 800px;
-	border-radius: 10%;
-	background-color: rgba(0,0,0,0.00);
-}
+
 .portrait{
 	border-radius: 50px;
 	float: right;
@@ -143,7 +140,7 @@ center{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 100px;
-	color: #000000;
+	color: #111111;
 	background-color: #C6C6C6;
 	border-radius: 50px;
 	box-shadow: 5px 5px 1px 1px;
@@ -157,6 +154,7 @@ center{
 	margin-top: 0px;
 	height: auto;
 	padding: 20px;
+	color: #111111;
 	background-color: #C6C6C6;
 	border-radius: 50px;
 	box-shadow: 5px 5px 1px 1px;
@@ -272,6 +270,7 @@ center {
 .blog{
 	width: 100%;
 	text-align: center;
+	color: #111111;
 
 }	
 .home_header {
@@ -297,7 +296,15 @@ right{
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 100px;
-	color: #000000;
+	color: #111111;
 }
 
+}
+@media (prefers-color-scheme: dark) {
+	.text_column {
+		color: #111111;
+	}
+	.blog{
+		color: #111111;
+	}
 }
